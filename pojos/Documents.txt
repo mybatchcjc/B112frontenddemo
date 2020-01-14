@@ -1,0 +1,14 @@
+@Id
+private int loanGenerationId;
+@OneToOne
+private Lead leadId;
+private	byte[] addressProof;
+private byte[] bankStatement;//form1
+private	byte[] itrFile;
+private	byte[] photo;
+private	byte[] signature;
+private	byte[] thumb;
+private	byte[] bankcheck;
+private	byte[] salarySlip;
+private	byte[] adharcard;
+private	byte[] pancard;

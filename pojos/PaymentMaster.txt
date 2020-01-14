@@ -1,0 +1,9 @@
+@Id
+private int id;
+private double dealerOutstandingPayment;
+private double dealerAmountPaid;
+private double dealerAmountRemaining;
+private String TimeStamp;
+private String loanPaymentTask;
+private int dealerId;
+private String loanNo;

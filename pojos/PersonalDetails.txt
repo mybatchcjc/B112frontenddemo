@@ -1,0 +1,11 @@
+@Id
+private int id;
+private String fatherName;
+private String motherName;
+private int noOfFamilyMember;
+private int noOfChild;
+private Sting maritalStatus;
+private int dpendentMember;
+private float familyIncome;
+private String spouseName;
+private String nationality;

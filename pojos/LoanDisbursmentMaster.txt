@@ -1,0 +1,16 @@
+private int loanDisbursementMasterId;
+	private int loanId;
+	private String amountPayType;
+	private Double totalAmount;
+	private String bankName;
+	@Column(name = "mf_ac_number")
+	private Long mangaFinanceaccountNumber;
+	
+	@Column(name = "mf_ifsc_code")
+	private String magnaFinanceIFSCCode;
+	private String accountType;
+	private Double transferAmount;
+	
+	@Column(name = "status")
+	private String paymentStatus;
+	private String amountPaidDate;

@@ -1,0 +1,14 @@
+@Id
+private int enquiryId;
+private String customerFname;
+private String customerMname;
+private String customerLname;
+private String customerGender;
+private String customerMobileNo; 
+private String customerDob;
+private String customerEmailId;
+private String address;
+private String createdBy;
+private  int  statusCode;
+private double loanRequired;
+private String dateTime;

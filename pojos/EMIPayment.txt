@@ -1,0 +1,7 @@
+	private int emiPaymentId;
+	private int loanId;
+	private Double emiAmount;
+	private String emiLastDate;
+	private Double emiPaidAmount;
+	private Double totalAmount;
+	private String emiPaidDate;
