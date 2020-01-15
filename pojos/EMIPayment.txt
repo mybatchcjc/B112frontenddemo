@@ -5,3 +5,4 @@
 	private Double emiPaidAmount;
 	private Double totalAmount;
 	private String emiPaidDate;
+private int statusCode;

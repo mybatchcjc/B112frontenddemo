@@ -32,3 +32,4 @@
 	private String documentUpload;
 	
 	private String documentRecievedDate;
+private int statusCode;

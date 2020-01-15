@@ -1,5 +1,6 @@
 @Id
 private int id;
+private int customerId;
 private String fatherName;
 private String motherName;
 private int noOfFamilyMember;

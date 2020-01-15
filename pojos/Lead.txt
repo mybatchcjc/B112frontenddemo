@@ -7,5 +7,5 @@ private byte[] customerPancard;
 private long customerAdharno;
 private String customerPanno;
 private String date;
-private String status;
+private int statusCode;
 private String lesadDateAndTime

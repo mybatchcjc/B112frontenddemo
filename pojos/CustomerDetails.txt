@@ -1,17 +1,15 @@
 @Id
 private int customerId;
-@OneToOne
+@OneToMany
 private GuarantorDetails guarantorId;
 private String customerName;
 private String customerMobileNo;
-private String customerAddress;
 private String customerEmailId;
 private String customerGender;
 private String customerDob;
 private int customerAge;
-private String customerProfession;
+private String customerQualification;
 private String policeStation;
-private String residenceType;
 @OneToOne
 private Address currentAddress;
 @OneToMany
@@ -20,3 +18,9 @@ private String maritalStatus;
 private int loanNo;
 @OneToOne
 private Lead leadId;
+private int statusCode;
+@OneToOne
+private BankDetails bankDetails;
+private String occupationType;
+@oneToMany
+private List<PreviousLoanDetails> previousLoanDetails;

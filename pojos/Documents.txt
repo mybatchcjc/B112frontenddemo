@@ -1,7 +1,7 @@
 @Id
-private int loanGenerationId;
+private int documentId;
 @OneToOne
-private Lead leadId;
+private Lead leadid;
 private	byte[] addressProof;
 private byte[] bankStatement;//form1
 private	byte[] itrFile;

@@ -18,3 +18,4 @@
 	
 	private int tenure;
 	private Double emi;
+private int statusCode;

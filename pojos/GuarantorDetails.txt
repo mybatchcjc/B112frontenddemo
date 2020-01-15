@@ -12,5 +12,7 @@ private String policeStation;
 private String residenceType;
 private String maritalStatus;
 @OneToMany
-private PrviousLoanDetails loandetails;
+private PrviousLoanDetails previousLoanDetails;
+@oneToOne
+private Documents documentDetails;
 private String dateTime;

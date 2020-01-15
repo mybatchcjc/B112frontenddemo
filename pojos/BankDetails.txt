@@ -4,4 +4,3 @@ private String bankAccountNo;
 private String bankAccountHolderName;
 @OneToOne
 private Branch bankBranch;
-private String branchType;
