@@ -1,0 +1,25 @@
+@Id
+private int ledgerDetailsId;
+//foreign key
+private String CustomerId;
+// take from table loan disbursement details
+private String loanNo;
+// foreign key 
+
+private String loanMasterDetailsId;
+
+private Double totalAmount;
+	
+private int tenure;
+	
+private Double emi; 
+	
+private Double advanceEmi; 
+	
+private String emiStartDate;
+	
+private String emiEndDate;
+	
+private String ledgerCreatedDate;
+	
+private Double ledgerDetailsEMIPaidAmount;

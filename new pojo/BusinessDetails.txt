@@ -1,0 +1,10 @@
+@Id
+private int businessId;
+private	String businessType;
+private	String businessName;
+private String businessCertificateNo;
+@OneToOne
+private	Address businessAddress;
+private byte[] businessProof;
+private byte[] businessPanCard;
+private byte[] businessLicianceNo;

@@ -1,0 +1,21 @@
+@Id
+private int loanMasterDetailsId;
+private String vehicleDetailsId;
+private String customerId;
+private int tenure;
+private Double loanAmount;
+private Double rateOfInterest;
+private Double emi;
+private Double actualEmi; 
+private String secondYearInsurance;
+private Double advanceEmi;
+private Double processingFees;
+private Double paidToDelear;
+private Double paidToSME;
+private String verifiedByCm;
+private String createdBy;
+private String createdDate;
+private String sanctionLetterGeneratinDate;
+private String documentUpload;
+private String documentRecievedDate;
+private int statusCode;

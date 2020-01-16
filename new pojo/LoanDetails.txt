@@ -1,0 +1,17 @@
+@Id
+private int loanId;
+private int customerId;
+private int leadId;
+private String loanType;
+private double loanAmount;
+private double rateOfInterest;
+@OneToOne
+private BusinessDetails business; 
+private int tenure;
+private double marginMoney;
+private double advanceEMI;
+private double processingFees; 
+private double totalInterestAmount;
+private String sanctionDate;
+private String remark;
+private int statusCode;

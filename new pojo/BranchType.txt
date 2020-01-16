@@ -1,0 +1,5 @@
+@Id
+private int id;
+private int branchTypeCode;
+private String branchType;
+private String Status;

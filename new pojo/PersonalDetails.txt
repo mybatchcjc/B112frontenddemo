@@ -1,0 +1,12 @@
+@Id
+private int id;
+private int customerId;
+private String fatherName;
+private String motherName;
+private int noOfFamilyMember;
+private int noOfChild;
+private Sting maritalStatus;
+private int dpendentMember;
+private double familyIncome;
+private String spouseName;
+private String nationality;

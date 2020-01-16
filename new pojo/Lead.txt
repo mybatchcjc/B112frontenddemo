@@ -1,0 +1,11 @@
+@Id
+private int leadId;
+@OneToOne
+private EnquiryDetails enquiryId;
+private String customerAdharcard;
+private String customerPancard;
+private long customerAdharno;
+private String customerPanno;
+private String date;
+private int statusCode;
+private String leadDateAndTime

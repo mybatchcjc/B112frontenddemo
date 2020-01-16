@@ -1,0 +1,5 @@
+@Id
+private int GSTId;
+private double SGST;
+private double CGST;
+private double IGST;

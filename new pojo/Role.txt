@@ -1,0 +1,4 @@
+@Id
+private int roleId;
+private String roleName;
+private int roleStatusCode;

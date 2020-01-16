@@ -1,0 +1,4 @@
+@Id
+private int countryId;
+private String countryName;
+private String countryCode;

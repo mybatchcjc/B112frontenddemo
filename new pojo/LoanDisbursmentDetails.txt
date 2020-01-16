@@ -1,0 +1,22 @@
+@Id
+	private int loanDisbursmentId;
+	
+	//foreign key
+	@Column(name = "loan_master")
+	private int loanMasterDetailsId;
+
+	// Generate according to branch
+	@Column(name = "case_no")
+	private int loanNo;
+	
+	//foreign key
+	@Column(name = "vd_id")
+	private String vehicleDetailsId;
+	
+	private Double paidToDealer;
+	
+	private Double loanAmount;
+	
+	private int tenure;
+	private Double emi;
+	private int statusCode;

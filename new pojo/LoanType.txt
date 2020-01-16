@@ -1,0 +1,4 @@
+@Id
+private int ltid;
+private String loanType;
+private String loanCode;

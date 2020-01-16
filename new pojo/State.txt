@@ -1,0 +1,6 @@
+@Id
+private int stateId;
+	private String stateName;
+	private String stateCode;
+@OneToOne
+private Country country;

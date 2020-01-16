@@ -1,0 +1,14 @@
+@Id
+private int documentId;
+private int customerId;
+private	String addressProof;
+private String bankStatement;//form1
+private	String itrFile;
+private	String photo;
+private	String signature;
+private	String thumb;
+private	String bankcheck;
+private	String salarySlip;
+private	String adharcard;
+private	String pancard;
+private String previousLoanStatement;
