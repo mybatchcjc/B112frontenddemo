@@ -1,0 +1,16 @@
+private int ledgerUpdationDetailsId;
+	
+	//foreign Key
+	@Column(name ="ld_id")
+	private String ledgerDetailsId;
+	
+	//need to get from mf_ledger_details table
+	private String caseNumber;
+	
+	private String emiPaidDate;
+	
+	private Double emiPaidAmount;
+	
+	private int bucket;
+	
+	private Double totalEmiPaid;

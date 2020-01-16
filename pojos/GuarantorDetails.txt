@@ -1,0 +1,18 @@
+@Id
+private int guarantorId;
+private String guarantorName;
+private String guarantorMobileNo;
+private Address guarantorAddress;
+private String guarantorEmailId;
+private String guarantorGender;
+private String guarantorDob;
+private int guarantorAge;
+private String guarantorProfession;
+private String policeStation;
+private String residenceType;
+private String maritalStatus;
+@OneToMany
+private PrviousLoanDetails previousLoanDetails;
+@oneToOne
+private Documents documentDetails;
+private String dateTime;

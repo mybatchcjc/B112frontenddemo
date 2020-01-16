@@ -1,0 +1,8 @@
+@Id
+private int emiPaymentId;
+private int loanNo;
+private Double emiAmount;
+private String emiLastDate;
+private Double emiPaidAmount;
+private Double totalAmount;
+private int statusCode;

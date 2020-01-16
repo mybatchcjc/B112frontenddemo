@@ -1,0 +1,5 @@
+	@Id
+	private int udid;
+	private byte [] aadharCard;
+	private byte [] panCard;
+	private byte [] photo;

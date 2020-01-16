@@ -1,0 +1,6 @@
+@Id
+private int id;
+@OneToOne
+private Branch branch;
+private int remainingEmi;
+private double remainingAmount;

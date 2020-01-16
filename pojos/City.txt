@@ -1,0 +1,6 @@
+@Id
+private int cityId;
+private String cityName;
+private int cityCode;
+@OneToOne
+private State state;

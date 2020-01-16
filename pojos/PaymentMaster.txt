@@ -1,0 +1,9 @@
+@Id
+private int id;
+private double outstandingPayment;
+private double amountPaid;
+private double amountRemaining;
+private String TimeStamp;
+private String loanPaymentTask;
+private int loanId;
+private int statusCode

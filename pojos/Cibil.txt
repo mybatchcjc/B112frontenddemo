@@ -1,0 +1,7 @@
+@Id
+private int cibilId;
+private int leadId;
+private double cibilScore;
+private String cibilScoreDateTime;
+private int status;
+private String remark;

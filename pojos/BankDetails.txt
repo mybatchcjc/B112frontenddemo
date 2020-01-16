@@ -1,0 +1,6 @@
+@Id
+private int bid;
+private String bankAccountNo;
+private String bankAccountHolderName;
+@OneToOne
+private Branch bankBranch;

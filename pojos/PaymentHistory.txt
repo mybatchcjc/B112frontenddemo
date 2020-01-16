@@ -1,0 +1,8 @@
+@Id
+private int id;
+private int loanId;
+private String paymentDate;
+private double paymentAmount;
+private String remark;
+private String modeOfPayment;
+private int statusCode;
