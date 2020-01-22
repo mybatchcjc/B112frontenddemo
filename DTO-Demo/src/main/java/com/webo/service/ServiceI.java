@@ -10,6 +10,7 @@ public interface ServiceI {
 	public List<Employee> findAll();
 	public void save(Employee e);
 	public List<EmployeeDTO> getempdto();
-	public void save1(EmployeeDTO e);
-
+//	public void save1(EmployeeDTO e);
+//	public void saveDto(EmployeeDTO1 e);
+//	public Employee getemployee(String name);
 }
